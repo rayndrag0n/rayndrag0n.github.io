@@ -37,11 +37,15 @@ body#raynpage {
   color: #fff;
 }
 
-.rp > p,
-.rp > pre,
-.rp > ul,
-.rp > ol,
-.rp > dl {
+.rp h2 + p,
+.rp h2 + ul,
+.rp h2 + dl,
+.rp h2 + ol,
+.rp h2 + pre {
+  margin-left: 3ex;
+}
+
+.rp p.no-shift {
   margin-left: 0;
 }
 
