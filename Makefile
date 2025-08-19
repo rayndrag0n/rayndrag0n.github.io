@@ -1,2 +1,2 @@
 rayn:
-	ronn --html --style=rayn index.md
+	ronn --html --style=dark man.md

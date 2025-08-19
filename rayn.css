@@ -14,8 +14,8 @@ body#raynpage {
 }
 
 .rp {
-  width: 100%;
-  padding: 2ex 6ex;
+  max-width: 100ex;
+  padding: 0 9ex 1ex 4ex;
   text-align: justify;
   background: #000;
   color: #aaa;
@@ -44,6 +44,24 @@ body#raynpage {
   margin-left: 8ex;
 }
 
+.rp h3 {
+  margin: 0 0 0 4ex;
+}
+
+.rp dt {
+  margin: 0;
+  clear: left;
+}
+
+.rp dt.flush {
+  float: left;
+  width: 8ex;
+}
+
+.rp dd {
+  margin: 0 0 0 9ex;
+}
+
 .rp h1,
 .rp h2,
 .rp h3,
@@ -57,16 +75,18 @@ body#raynpage {
   white-space: pre;
   font-family: monospace;
   font-size: 14px;
-  line-height: 1.4em;
+  line-height: 1.42857142857143;
   color: #aaa;
 }
 
-.ascii-cat {
-  text-align: center;
-  white-space: pre;
-  font-family: monospace;
-  font-size: 14px;
-  line-height: 1.4em;
+.rp pre + h2,
+.rp pre + h3 {
+  margin-top: 22px;
+}
+
+.rp h2 + pre,
+.rp h3 + pre {
+  margin-top: 5px;
 }
 
 .rp img {
@@ -74,7 +94,52 @@ body#raynpage {
   margin: auto;
 }
 
-.rp a {
+.rp h1.rayn-title {
+  display: none;
+}
+
+.rp,
+.rp code,
+.rp tt,
+.rp kbd,
+.rp samp,
+.rp h3,
+.rp h4 {
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.42857142857143;
+}
+
+.rp h1 {
+  font-size: 20px;
+  line-height: 2;
+  color: #fff;
+}
+
+.rp code,
+.rp strong,
+.rp b {
+  color: #fff;
+}
+
+.rp em,
+.rp var,
+.rp u {
+  color: #ddd;
+}
+
+.rp pre code {
+  color: #ddd;
+}
+
+.rp a,
+.rp a:link,
+.rp a:hover,
+.rp a code,
+.rp a pre,
+.rp a tt,
+.rp a kbd,
+.rp a samp {
   color: #fff;
 }
 
@@ -106,54 +171,4 @@ ol.rayn-decor li.tc {
 ol.rayn-decor li.tr {
   text-align: right;
   float: right;
-}
-
-/* modern font */
-body,
-.rp {
-  font-family: "Inter", "Helvetica Neue", sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #e6e6e6;
-}
-
-/* headings */
-.rp h1,
-.rp h2,
-.rp h3 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #ffffff;
-  letter-spacing: 1px;
-}
-
-.rp h2 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  color: #7dd3fc; /* accent color */
-}
-
-/* links */
-.rp a {
-  color: #38bdf8;
-  text-decoration: none;
-  transition: 0.2s;
-}
-.rp a:hover {
-  text-decoration: underline;
-}
-
-/* section layout */
-.section {
-  margin: 20px auto;
-  max-width: 700px;
-  padding: 0 20px;
-}
-
-/* spotify embed */
-iframe {
-  border-radius: 12px;
-  margin-top: 15px;
 }
