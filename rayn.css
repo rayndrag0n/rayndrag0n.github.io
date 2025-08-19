@@ -1,10 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #aaa;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body#raynpage {
   margin: 0;
 }
+
 .rp {
   max-width: 100ex;
   padding: 0 9ex 1ex 4ex;
+  text-align: justify;
+  background: #000;
+  color: #aaa;
 }
+
 .rp p,
 .rp pre,
 .rp ul,
@@ -12,9 +28,14 @@ body#raynpage {
 .rp dl {
   margin: 0 0 20px 0;
 }
+
 .rp h2 {
   margin: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #fff;
 }
+
 .rp > p,
 .rp > pre,
 .rp > ul,
@@ -22,47 +43,63 @@ body#raynpage {
 .rp > dl {
   margin-left: 8ex;
 }
+
 .rp h3 {
   margin: 0 0 0 4ex;
 }
+
 .rp dt {
   margin: 0;
   clear: left;
 }
+
 .rp dt.flush {
   float: left;
   width: 8ex;
 }
+
 .rp dd {
   margin: 0 0 0 9ex;
 }
+
 .rp h1,
 .rp h2,
 .rp h3,
 .rp h4 {
   clear: left;
+  color: #fff;
 }
+
 .rp pre {
   margin-bottom: 20px;
+  white-space: pre;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.42857142857143;
+  color: #aaa;
 }
+
 .rp pre + h2,
 .rp pre + h3 {
   margin-top: 22px;
 }
+
 .rp h2 + pre,
 .rp h3 + pre {
   margin-top: 5px;
 }
+
 .rp img {
   display: block;
   margin: auto;
 }
+
 .rp h1.rayn-title {
   display: none;
 }
+
 .rp,
 .rp code,
-.rp pre,
 .rp tt,
 .rp kbd,
 .rp samp,
@@ -72,38 +109,29 @@ body#raynpage {
   font-size: 14px;
   line-height: 1.42857142857143;
 }
-.rp h2 {
-  font-size: 16px;
-  line-height: 1.25;
-}
+
 .rp h1 {
   font-size: 20px;
   line-height: 2;
-}
-.rp {
-  text-align: justify;
-  background: #000;
-  color: #aaa;
-}
-.rp h1,
-.rp h2,
-.rp h3,
-.rp h4 {
   color: #fff;
 }
+
 .rp code,
 .rp strong,
 .rp b {
   color: #fff;
 }
+
 .rp em,
 .rp var,
 .rp u {
   color: #ddd;
 }
+
 .rp pre code {
   color: #ddd;
 }
+
 .rp a,
 .rp a:link,
 .rp a:hover,
@@ -114,6 +142,7 @@ body#raynpage {
 .rp a samp {
   color: #fff;
 }
+
 ol.rayn-decor,
 ol.rayn-decor li {
   margin: 3px 0 10px 0;
@@ -125,16 +154,20 @@ ol.rayn-decor li {
   color: #666;
   letter-spacing: 1px;
 }
+
 ol.rayn-decor {
   width: 100%;
 }
+
 ol.rayn-decor li.tl {
   text-align: left;
 }
+
 ol.rayn-decor li.tc {
   text-align: center;
   letter-spacing: 4px;
 }
+
 ol.rayn-decor li.tr {
   text-align: right;
   float: right;
