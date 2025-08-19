@@ -41,7 +41,7 @@ body#raynpage {
 .rp h2 + ul,
 .rp h2 + dl,
 .rp h2 + ol,
-.rp h2 + pre {
+.rp p.shifted {
   margin-left: 3ex;
 }
 
