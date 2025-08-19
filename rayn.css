@@ -14,8 +14,8 @@ body#raynpage {
 }
 
 .rp {
-  max-width: 100ex;
-  padding: 0 9ex 1ex 4ex;
+  width: 100%;
+  padding: 2ex 6ex;
   text-align: justify;
   background: #000;
   color: #aaa;
@@ -44,24 +44,6 @@ body#raynpage {
   margin-left: 8ex;
 }
 
-.rp h3 {
-  margin: 0 0 0 4ex;
-}
-
-.rp dt {
-  margin: 0;
-  clear: left;
-}
-
-.rp dt.flush {
-  float: left;
-  width: 8ex;
-}
-
-.rp dd {
-  margin: 0 0 0 9ex;
-}
-
 .rp h1,
 .rp h2,
 .rp h3,
@@ -75,18 +57,16 @@ body#raynpage {
   white-space: pre;
   font-family: monospace;
   font-size: 14px;
-  line-height: 1.42857142857143;
+  line-height: 1.4em;
   color: #aaa;
 }
 
-.rp pre + h2,
-.rp pre + h3 {
-  margin-top: 22px;
-}
-
-.rp h2 + pre,
-.rp h3 + pre {
-  margin-top: 5px;
+.ascii-cat {
+  text-align: center;
+  white-space: pre;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.4em;
 }
 
 .rp img {
@@ -94,52 +74,7 @@ body#raynpage {
   margin: auto;
 }
 
-.rp h1.rayn-title {
-  display: none;
-}
-
-.rp,
-.rp code,
-.rp tt,
-.rp kbd,
-.rp samp,
-.rp h3,
-.rp h4 {
-  font-family: monospace;
-  font-size: 14px;
-  line-height: 1.42857142857143;
-}
-
-.rp h1 {
-  font-size: 20px;
-  line-height: 2;
-  color: #fff;
-}
-
-.rp code,
-.rp strong,
-.rp b {
-  color: #fff;
-}
-
-.rp em,
-.rp var,
-.rp u {
-  color: #ddd;
-}
-
-.rp pre code {
-  color: #ddd;
-}
-
-.rp a,
-.rp a:link,
-.rp a:hover,
-.rp a code,
-.rp a pre,
-.rp a tt,
-.rp a kbd,
-.rp a samp {
+.rp a {
   color: #fff;
 }
 
