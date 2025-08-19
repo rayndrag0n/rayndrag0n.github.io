@@ -14,8 +14,9 @@ body#raynpage {
 }
 
 .rp {
-  max-width: 100ex;
-  padding: 0 9ex 1ex 4ex;
+  max-width: 90ch;
+  margin: 0 auto;
+  padding: 2ex;
   text-align: justify;
   background: #000;
   color: #aaa;
@@ -41,11 +42,11 @@ body#raynpage {
 .rp > ul,
 .rp > ol,
 .rp > dl {
-  margin-left: 8ex;
+  margin-left: 0;
 }
 
 .rp h3 {
-  margin: 0 0 0 4ex;
+  margin: 0 0 0 0;
 }
 
 .rp dt {
