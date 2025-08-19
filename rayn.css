@@ -107,3 +107,53 @@ ol.rayn-decor li.tr {
   text-align: right;
   float: right;
 }
+
+/* modern font */
+body,
+.rp {
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e6e6e6;
+}
+
+/* headings */
+.rp h1,
+.rp h2,
+.rp h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.rp h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #7dd3fc; /* accent color */
+}
+
+/* links */
+.rp a {
+  color: #38bdf8;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.rp a:hover {
+  text-decoration: underline;
+}
+
+/* section layout */
+.section {
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+/* spotify embed */
+iframe {
+  border-radius: 12px;
+  margin-top: 15px;
+}
